@@ -9,12 +9,13 @@
     },
     "permissions": [
         "http://arxiv.org/abs/*",
+        "http://arxiv.org/list/*",
         "https://paypal.com/*"
     ],
     "content_scripts": [
         {
             "js": ["jquery.min.js", "common.js", "script_arxive.org.js"],
-            "matches": ["http://arxiv.org/abs/*"]
+            "matches": ["http://arxiv.org/abs/*", "http://arxiv.org/list/*"]
         }
     ],
     "manifest_version": 2
