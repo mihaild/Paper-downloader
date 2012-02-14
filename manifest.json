@@ -9,8 +9,7 @@
     },
     "permissions": [
         "http://arxiv.org/abs/*",
-        "http://arxiv.org/list/*",
-        "https://paypal.com/*"
+        "http://arxiv.org/list/*"
     ],
     "content_scripts": [
         {
