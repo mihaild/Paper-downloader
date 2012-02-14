@@ -7,14 +7,13 @@
         "48": "icon48.png",
         "128": "icon128.png"
     },
-    "background_page": "background.html",
     "permissions": [
         "http://arxiv.org/abs/*",
         "https://paypal.com/*"
     ],
     "content_scripts": [
         {
-            "js": ["jquery.min.js", "script.js"],
+            "js": ["jquery.min.js", "common.js", "script_arxive.org.js"],
             "matches": ["http://arxiv.org/abs/*"]
         }
     ],
