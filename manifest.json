@@ -8,13 +8,15 @@
         "128": "icon128.png"
     },
     "background_page": "background.html",
-    //"options_page": "options.html",
     "permissions": [
-        "tabs", "http://arxiv.org/abs/*"
+        "http://arxiv.org/abs/*",
+        "https://paypal.com/*"
     ],
-    "page_action": {
-        "default_icon": "icon.png",
-        "default_title": "Download PDF"
-    },
+    "content_scripts": [
+        {
+            "js": ["jquery.min.js", "script.js"],
+            "matches": ["http://arxiv.org/abs/*"]
+        }
+    ],
     "manifest_version": 2
 }
