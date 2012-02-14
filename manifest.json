@@ -15,6 +15,10 @@
         {
             "js": ["jquery.min.js", "common.js", "script_arxive.org.js"],
             "matches": ["http://arxiv.org/abs/*", "http://arxiv.org/list/*"]
+        },
+        {
+            "js": ["jquery.min.js", "common.js", "script_eccc.hpi-web.de.js"],
+            "matches": ["http://arxiv.org/abs/*", "http://eccc.hpi-web.de/report/*"]
         }
     ],
     "manifest_version": 2
