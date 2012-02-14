@@ -1,0 +1,20 @@
+{
+    "name": "Arxiv.org pdf downloader",
+    "version": "0.0.0",
+    "description": "Plugin helps to download articles from arxiv.org with human readable file names",
+    "icons": { 
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "background_page": "background.html",
+    //"options_page": "options.html",
+    "permissions": [
+        "tabs", "http://arxiv.org/abs/*"
+    ],
+    "page_action": {
+        "default_icon": "icon.png",
+        "default_title": "Download PDF"
+    },
+    "manifest_version": 2
+}
