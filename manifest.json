@@ -1,7 +1,7 @@
 {
-    "name": "Arxiv.org pdf downloader",
-    "version": "0.0.0",
-    "description": "Plugin helps to download articles from arxiv.org with human readable file names",
+    "name": "Paper downloader",
+    "version": "0.0.1",
+    "description": "Plugin helps to download articles with human readable file names",
     "icons": { 
         "16": "icon16.png",
         "48": "icon48.png",
