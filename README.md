@@ -23,4 +23,4 @@ Using jQuery for DOM traversing is recommended.
 
 3. You can test it, using ```Load unpacked extension``` function in chrome. Read [chrome extensions tutorial](http://code.google.com/chrome/extensions/getstarted.html) for more information.
 
-4. (optional) Create a push request with your script. In this case, file with your script should have name like *script_yoursite.com.js*. If you'll do it, your changes will appear in webstore after I'll check them.
+4. (optional) Create a pull request with your script. In this case, file with your script should have name like *script_yoursite.com.js*. If you'll do it, your changes will appear in webstore after I'll check them.
