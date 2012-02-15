@@ -3,8 +3,6 @@ Paper downloader is a simple chrome plugin which helps to download files from di
 For example, when you download file from arxiv.org, you get something looks like "1234.5678.pdf".
 With this plugin, you get file named "%AUTHOR\_NAME% - %PAPER\_NAME%.pdf" instead.
 
-[This plugin in chrome webstore](https://chrome.google.com/webstore/detail/nkpcgjafmckjhhoogopopoaaogjhkkie)
-
 ## How it works
 Plugin adds it's own handler to "onclick" event on download link. When you click it, the file is downloaded to HTML5 Filesystem, and then it opens from thence.
 
